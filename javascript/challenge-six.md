@@ -1,7 +1,7 @@
 ***Original Method***
 ```javascript
 let numbers = [1, 2, 3];
-``
+```
 
 let doubled = numbers.map(function(n) { return n * 2 });
 
