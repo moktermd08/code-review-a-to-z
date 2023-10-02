@@ -17,6 +17,7 @@ Refactoring: The formula can be simplified to return price * 0.9;.
  * 
  * @param {number} price - The original price of the item.
  * @returns {number} - Returns the price after the 10% discount is applied.
+ * @throws {TypeError} throws error if input is not number
  */
 
 function discount(price) {
