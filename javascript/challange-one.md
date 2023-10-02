@@ -1,7 +1,8 @@
-```function sqr(n) {
+```javascript
+function sqr(n) {
     return n * n;
 }
-```
+```javascript
 
 **Review:**
 
