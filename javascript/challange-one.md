@@ -1,3 +1,5 @@
+***Identify issues and improvement on this function***
+
 ```javascript
 function sqr(n) {
     return n * n;
