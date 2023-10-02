@@ -1,7 +1,7 @@
-```jfunction sqr(n) {
+```function sqr(n) {
     return n * n;
 }
-```j
+```
 
 **Review:**
 
