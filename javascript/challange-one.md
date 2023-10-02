@@ -34,4 +34,6 @@ function square(n) {
 In the revised function:
 
 - The name of the function is changed from `sqr` to `square` for clarity.
+
+If you think there is a better way to code it please submit your code 
 - Before proceeding with the calculation, we've added a check to ensure the parameter `n` is of type number. If it's not, the function throws a descriptive error.
