@@ -31,6 +31,34 @@ function square(n) {
 }
 ```
 
+
+***Commented version***
+```javascript
+/**
+ * Computes the square of a given number.
+ * 
+ * This function accepts a number as its parameter and returns its square.
+ * Before performing the calculation, the function checks if the input is 
+ * actually a number to ensure data integrity and prevent potential errors.
+ * 
+ * @param {number} n - The number to be squared.
+ * @returns {number} - The square of the input number.
+ * @throws {TypeError} - Throws an error if the input is not a number.
+ */
+function square(n) {
+    // Check if the input parameter is a number
+    if (typeof n !== 'number') {
+        // Throw a descriptive error if the input is not a number
+        throw new TypeError('Expected a number as input');
+    }
+    
+    // Calculate and return the square of the number
+    return n * n;
+}
+
+```
+
+
 In the revised function:
 
 - The name of the function is changed from `sqr` to `square` for clarity.
