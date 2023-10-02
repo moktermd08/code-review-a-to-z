@@ -1,3 +1,4 @@
+***Original Code***
 ```javascript
 function discount(price) {
     return price - price * 0.1;
